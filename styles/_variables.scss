@@ -1,3 +1,28 @@
+$_backdrop-light: #ffffff;
+
+$_background-light: #ffffff;
+$_background-secondary-light: #e0e0e0;
+$_color-light: rgba(0,0,0, 0.60);
+$_color-emphasis-light: rgba(0,0,0, 0.87);
+
+$_backdrop-dark: #121212;
+$_background-dark: #121212;
+$_background-secondary-dark: rgba(255, 255, 255, 0.07);
+$_color-dark: rgba(255, 255, 255, 0.60);
+$_color-emphasis-dark: rgba(255, 255, 255, 0.87);
+
+$backdrop: $_backdrop-light;
+$background: $_background-light;
+$background-secondary: $_background-secondary-light;
+$color: $_color-light;
+$color-emphasis: $_color-emphasis-light;
+
+
+$default-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !default;
+$deep-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+$deeper-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+
 $media-sm: 576px;
 $media-md: 768px;
 $media-lg: 992px;
@@ -5,6 +30,6 @@ $media-xl: 1200px;
 $media-xxl: 1400px;
 
 $container-sm: 500px;
-$container-md: 700px;
-$container-lg: 800px;
-$container-xl: 1000px;
+$container-md: 750px;
+$container-lg: 950px;
+$container-xl: 1100px;

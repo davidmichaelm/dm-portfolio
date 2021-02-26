@@ -1,0 +1,62 @@
+@use "variables" as v;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    //justify-content: start;
+    justify-content: center;
+
+    margin: 1em auto;
+    padding: 1em 20px;
+    box-sizing: border-box;
+
+
+    //background: v.$background;
+    //box-shadow: v.$default-shadow;
+}
+
+
+/* Mobile first queries */
+
+/* Small */
+@media (min-width: v.$media-sm) {
+    .container {
+        width: v.$container-sm;
+        //justify-content: center;
+    }
+}
+
+/* Medium */
+@media (min-width: v.$media-md) {
+    .container {
+        width: v.$container-md;
+    }
+
+    .container > div {
+        margin: 0.5em;
+    }
+
+    .container .header {
+        margin: 0.5em;
+    }
+}
+
+/* Large */
+@media (min-width: v.$media-lg) {
+    .container {
+        width: v.$container-lg;
+    }
+}
+
+/* Extra large */
+@media (min-width: v.$media-xl) {
+    .container {
+        width: v.$container-xl;
+    }
+
+}
+
+/* Extra extra large */
+@media (min-width: v.$media-xxl) {
+}
