@@ -1,0 +1,78 @@
+@use "Container.module";
+@use "variables" as v;
+
+.header {
+    @extend .container;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.header div {
+    flex: 2;
+}
+
+.headerLeft {
+    min-width: 300px;
+}
+
+.headerRight {
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.subheading {
+    color: v.$color;
+    font-weight: normal;
+    padding-bottom: 0.5em;
+}
+
+
+/* Mobile first queries */
+
+/* Small */
+@media (min-width: v.$media-sm) {
+
+}
+
+/* Medium */
+@media (min-width: v.$media-md) {
+    .header {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .headerLeft {
+        padding-left: 20px;
+        min-width: 300px;
+    }
+
+    .headerRight {
+        padding-right: 40px;
+    }
+
+    .header p {
+        margin: 0 0 1em 0;
+    }
+}
+
+/* Large */
+@media (min-width: v.$media-lg) {
+    .header {
+        width: v.$container-lg;
+    }
+}
+
+/* Extra large */
+@media (min-width: v.$media-xl) {
+    .header {
+        width: v.$container-xl;
+    }
+
+}
+
+/* Extra extra large */
+@media (min-width: v.$media-xxl) {
+}
