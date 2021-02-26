@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <div className={styles.navWrapper}>
             <nav className={styles.nav}>
-                <div className={styles.navItem + " " + styles.logo}>
+                <div className={styles.logo}>
                     <img src="/logo.png" height="40" alt="DM Logo"/>
                 </div>
 

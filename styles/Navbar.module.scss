@@ -24,6 +24,7 @@
 }
 
 .logo {
+    @extend .navItem;
     padding: 10px 1.25em;
     margin-right: auto;
 }
