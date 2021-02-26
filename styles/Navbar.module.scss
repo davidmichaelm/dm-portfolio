@@ -1,0 +1,56 @@
+@use "variables" as v;
+
+.navWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: lightgray 1px solid;
+    margin-bottom: 2em;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItem {
+    padding: 10px 10px;
+}
+
+.navItem:last-of-type {
+    padding-right: 1.75em;
+}
+
+.logo {
+    padding: 10px 1.25em;
+    margin-right: auto;
+}
+
+.logo img {
+    height: 40px;
+}
+
+@media (min-width: v.$media-md) {
+    .nav {
+        width: v.$container-md;
+    }
+
+    .logo {
+        padding: 10px 1.75em !important;
+    }
+}
+
+@media (min-width: v.$media-lg) {
+    .nav {
+        width: v.$container-lg;
+        justify-content: center;
+    }
+}
+
+@media (min-width: v.$media-xl) {
+    .nav {
+        width: v.$container-xl;
+    }
+}
