@@ -4,8 +4,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    border-bottom: lightgray 1px solid;
-    margin-bottom: 2em;
 }
 
 .nav {
@@ -13,6 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: lightgray 1px solid;
+    margin-bottom: 2em;
 }
 
 .navItem {
@@ -35,10 +35,6 @@
 }
 
 @media (min-width: v.$media-md) {
-    .nav {
-        width: v.$container-md;
-    }
-
     .logo {
         padding: 10px 1.75em !important;
     }
@@ -46,13 +42,10 @@
 
 @media (min-width: v.$media-lg) {
     .nav {
-        width: v.$container-lg;
         justify-content: center;
     }
 }
 
 @media (min-width: v.$media-xl) {
-    .nav {
-        width: v.$container-xl;
-    }
+
 }

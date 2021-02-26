@@ -2,7 +2,6 @@ import styles from "../styles/Navbar.module.scss";
 
 export default function Navbar() {
     return (
-        <div className={styles.navWrapper}>
             <nav className={styles.nav}>
                 <div className={styles.logo}>
                     <img src="/logo.png" height="40" alt="DM Logo"/>
@@ -20,6 +19,5 @@ export default function Navbar() {
                     <a href="https://www.linkedin.com/in/david-marquardt-600005197/">LinkedIn</a>
                 </div>
             </nav>
-        </div>
     );
 }
