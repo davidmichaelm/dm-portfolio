@@ -26,12 +26,12 @@ export default function Projects() {
                             A Kanban or Scrum-style project board with real-time cloud saving and collaboration.
                         </p>
                         <p>
-                            I learned a ton from putting this project together.
+                            I learned a ton from putting this app together.
                             Working with <strong>Google Firebase</strong> for authentication and data storage is an amazing alternative to a hand-coded backend.
-                            But I realized the project's data structures could quickly get out of hand, so I implemented <strong>Vuex</strong>, a state management library for <strong>Vue</strong>.
+                            But I realized the app's data structures could quickly get out of hand, so I implemented <strong>Vuex</strong>, a state management library for <strong>Vue</strong>.
                         </p>
                         <p>
-                            Using <strong>Vuex</strong> also enabled me to make use of <strong>Vuexfire</strong> to power the project's real-time cloud saving--a feature that seemed necessary to make the application useful.
+                            Using <strong>Vuex</strong> also enabled me to make use of <strong>Vuexfire</strong> to power the app's real-time cloud saving--a feature that seemed necessary to make the app useful.
                         </p>
                         <p>
                             Tech used: <a href="https://vuejs.org">Vue.js</a>, <a href="https://firebase.google.com">Firebase</a>, <a href="https://getbootstrap.com">Bootstrap</a>
