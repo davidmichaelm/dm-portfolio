@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
             <nav className={styles.nav}>
                 <div className={styles.logo}>
-                    <img src="/logo.png" height="40" alt="DM Logo"/>
+                    <img src="/logo.svg" height="40" alt="DM Logo"/>
                 </div>
 
                 <div className={styles.navItem}>
