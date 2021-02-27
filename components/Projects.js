@@ -7,23 +7,31 @@ export default function Projects() {
 
             <div className={styles.projectList}>
                 <div className={styles.project}>
-                    <a href="#">
+                    <a href="https://vue-project-manager.netlify.app" target="_blank">
                         <div className={styles.vpmImageBackground}>
-                            <img alt="Vue Project Manager Icon" src="/vpm-icon.svg" height="100"/>
+                            <img alt="Vue Project Manager Icon" src="/vpm-icon.svg" height="100" className={styles.icon}/>
                         </div>
                     </a>
                     <div className={styles.cardBody}>
                         <div className={styles.cardTitle}>
                             <h3>
-                                <a href="#">Vue Project Manager</a>
+                                <a href="https://vue-project-manager.netlify.app" target="_blank">Vue Project Manager</a>
                             </h3>
-                            <a href="https://github.com/davidmichaelm/vue-project-manager" className={styles.codeLink}>
+                            <a href="https://github.com/davidmichaelm/vue-project-manager" target="_blank" className={styles.codeLink}>
                                 <img alt="Github" src="/GitHub-Mark-32px.png" height="24"/>
                             </a>
                         </div>
 
                         <p>
                             A Kanban or Scrum-style project board with real-time cloud saving and collaboration.
+                        </p>
+                        <p>
+                            I learned a ton from putting this project together.
+                            Working with <strong>Google Firebase</strong> for authentication and data storage is an amazing alternative to a hand-coded backend.
+                            But I realized the project's data structures could quickly get out of hand, so I implemented <strong>Vuex</strong>, a state management library for <strong>Vue</strong>.
+                        </p>
+                        <p>
+                            Using <strong>Vuex</strong> also enabled me to make use of <strong>Vuexfire</strong> to power the project's real-time cloud saving--a feature that seemed necessary to make the application useful.
                         </p>
                         <p>
                             Tech used: <a href="https://vuejs.org">Vue.js</a>, <a href="https://firebase.google.com">Firebase</a>, <a href="https://getbootstrap.com">Bootstrap</a>
