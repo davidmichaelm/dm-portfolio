@@ -19,7 +19,9 @@ export default function Home() {
             <Projects />
 
             <footer className={styles.footer}>
-
+                <small>
+                    Copyright &copy; 2021 David Marquardt. All rights reserved.
+                </small>
             </footer>
         </div>
     )
