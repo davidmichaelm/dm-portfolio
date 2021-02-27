@@ -119,6 +119,10 @@
   flex-direction: row;
 }
 
+.cardTitle a {
+  color: v.$color-emphasis;
+}
+
 .cardBody h3 {
   margin: 0;
 }
