@@ -1,0 +1,183 @@
+@use "Container.module";
+@use "variables" as v;
+
+// Add specific projects here!
+
+.vpmImageBackground {
+  @extend .project-image;
+  background-color: #0275d8 !important;
+}
+
+.jpoImageBackground {
+  @extend .project-image;
+  background-color: #e63946 !important;
+}
+
+// ---------------------------- //
+
+.projects {
+  @extend .container;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  //margin: 1em 0;
+}
+
+.projects > h2 {
+  margin-bottom: 1em;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  margin: 0 !important;
+}
+
+.project {
+  width: 100%;
+  //min-width: 300px;
+  //max-width: 350px;
+  min-height: 400px;
+  margin-bottom: 1em;
+  //margin: 0.5em;
+  box-sizing: border-box;
+
+  flex: 0 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  background: v.$background;
+  color: v.$color;
+
+  border-radius: 5px;
+  overflow: hidden;
+
+  box-shadow: v.$default-shadow;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.project:hover {
+  box-shadow: v.$deep-shadow
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  background-color: gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-image img {
+  display: inline;
+  align-self: center;
+  width: 100px;
+  border-radius: 9px;
+
+  box-shadow: v.$deep-shadow;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.project-image:hover img {
+  box-shadow: v.$deeper-shadow;
+}
+
+.project a {
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.cardBody {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.cardTitle {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardBody h3 {
+  margin: 0;
+}
+
+.codeLink {
+  margin-left: auto;
+}
+
+.cardBody p {
+  margin: 1em 0 0 0;
+}
+
+.cardBody p:last-of-type {
+  margin-top: auto !important;
+}
+
+/* Mobile first queries */
+
+/* Small */
+@media (min-width: v.$media-sm) {
+  .project {
+    width: 350px;
+  }
+}
+
+/* Medium */
+@media (min-width: v.$media-md) {
+  .projects {
+    margin: 1em auto;
+  }
+
+  .projects > h2 {
+    margin: 10px;
+  }
+
+  .projectList {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .project {
+    width: 350px;
+    //flex-grow: 1;
+    margin: 0.5em;
+  }
+
+
+}
+
+/* Large */
+@media (min-width: v.$media-lg) {
+  .projects {
+    width: v.$container-lg;
+    justify-content: center;
+  }
+}
+
+/* Extra large */
+@media (min-width: v.$media-xl) {
+  .projects {
+    width: v.$container-xl;
+  }
+
+}
+
+/* Extra extra large */
+@media (min-width: v.$media-xxl) {
+}
