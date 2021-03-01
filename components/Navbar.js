@@ -12,7 +12,7 @@ export default function Navbar() {
                 </div>
 
                 <div className={styles.navItem}>
-                    <a href="#">Resume</a>
+                    <a href="/DavidMarquardtResume.pdf">Resume</a>
                 </div>
 
                 <div className={styles.navItem}>
