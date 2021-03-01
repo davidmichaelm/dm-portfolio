@@ -40,7 +40,7 @@ export default function Projects() {
                 </div>
 
                 <div className={styles.project}>
-                    <a href="#">
+                    <a href="https://just-pick-one.azurewebsites.net/" target="_blank">
                         <div className={styles.jpoImageBackground}>
                             <img alt="Just Pick One Icon" src="/jpo-icon.svg" height="100" className={styles.icon}/>
                         </div>
@@ -49,7 +49,7 @@ export default function Projects() {
                     <div className={styles.cardBody}>
                         <div className={styles.cardTitle}>
                             <h3>
-                                <a href="#">Just Pick One</a>
+                                <a href="https://just-pick-one.azurewebsites.net/" target="_blank">Just Pick One</a>
                             </h3>
                             <a href="https://github.com/davidmichaelm/just-pick-one" className={styles.codeLink}>
                                 <img alt="Github" src="/GitHub-Mark-32px.png" height="24"/>
