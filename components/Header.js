@@ -6,7 +6,7 @@ export default function Header() {
             <div className={styles.headerLeft}>
                 <h1>Hi, I'm David,</h1>
                 <h1 className={styles.subheading}>Software Developer</h1>
-                <a href="#" className="button">Contact me today!</a>
+                <a href="mailto:davidmarquardtdev@gmail.com" className="button">Contact me today!</a>
             </div>
             <div className={styles.headerRight}>
                 <p>

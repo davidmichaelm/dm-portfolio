@@ -8,7 +8,7 @@ export default function Navbar() {
                 </div>
 
                 <div className={styles.navItem}>
-                    <a href="#">Contact</a>
+                    <a href="mailto:davidmarquardtdev@gmail.com">Contact</a>
                 </div>
 
                 <div className={styles.navItem}>
