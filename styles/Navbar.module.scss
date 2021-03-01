@@ -42,6 +42,12 @@
     display: block;
 }
 
+@media (min-width: v.$media-sm) {
+    .navItem:nth-of-type(2) {
+        display: block;
+    }
+}
+
 @media (min-width: v.$media-md) {
     .logo {
         padding: 10px 1.75em !important;
