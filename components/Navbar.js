@@ -12,11 +12,15 @@ export default function Navbar() {
                 </div>
 
                 <div className={styles.navItem}>
-                    <a href="/DavidMarquardtResume.pdf">Resume</a>
+                    <a href="/DavidMarquardtResume.pdf" target="_blank">Resume</a>
                 </div>
 
                 <div className={styles.navItem}>
-                    <a href="https://www.linkedin.com/in/david-marquardt-600005197/">LinkedIn</a>
+                    <a href="https://github.com/davidmichaelm" target="_blank">Github</a>
+                </div>
+
+                <div className={styles.navItem}>
+                    <a href="https://www.linkedin.com/in/david-marquardt-600005197/" target="_blank">LinkedIn</a>
                 </div>
             </nav>
     );
