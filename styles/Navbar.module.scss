@@ -10,7 +10,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     margin-bottom: 2em;
     font-size: 16px;
 }
@@ -21,6 +21,10 @@
 
 .navItem {
     padding: 10px 10px;
+}
+
+.navItem:nth-of-type(2) {
+    display: none;
 }
 
 .navItem:last-of-type {
