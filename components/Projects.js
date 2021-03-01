@@ -57,7 +57,13 @@ export default function Projects() {
                         </div>
 
                         <p>
-                            Helps you choose your next restaurant.
+                            A small web app that helps you narrow down your options to choose your next restaurant.
+                        </p>
+                        <p>
+                            This app pulls data from both the <strong>Google Maps API</strong> (for location autocomplete) and the <strong>Yelp Fusion API</strong> (for restaurant data). <strong>Svelte</strong> works nicely as a simple component framework, with <strong>Sapper</strong> filling out the backend.
+                        </p>
+                        <p>
+                            This was my first attempt to build a complete web app that someone might actually find helpful, and I'm pleased with the result.
                         </p>
                         <p>
                             Tech used: <a href="https://svelte.dev">Svelte</a> + <a href="https://sapper.svelte.dev">Sapper</a>, <a href="https://developers.google.com/maps/documentation">Google Maps API</a>, <a href="https://www.yelp.com/fusion">Yelp Fusion API</a>
