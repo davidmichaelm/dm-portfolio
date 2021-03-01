@@ -42,7 +42,7 @@ export default function Projects() {
                 <div className={styles.project}>
                     <a href="#">
                         <div className={styles.jpoImageBackground}>
-                            <img alt="Just Pick One Icon" src="/jpo-icon.svg" height="100"/>
+                            <img alt="Just Pick One Icon" src="/jpo-icon.svg" height="100" className={styles.icon}/>
                         </div>
                     </a>
 
