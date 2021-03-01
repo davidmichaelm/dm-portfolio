@@ -34,7 +34,7 @@ export default function Projects() {
                             Using <strong>Vuex</strong> also enabled me to make use of <strong>Vuexfire</strong> to power the app's real-time cloud saving--a feature that seemed necessary to make the app useful.
                         </p>
                         <p>
-                            Tech used: <a href="https://vuejs.org">Vue.js</a>, <a href="https://firebase.google.com">Firebase</a>, <a href="https://getbootstrap.com">Bootstrap</a>
+                            Tech used: <a href="https://vuejs.org">Vue.js</a>, <a href="https://vuex.vuejs.org">Vuex</a>, <a href="https://firebase.google.com">Firebase</a>, <a href="https://getbootstrap.com">Bootstrap</a>
                         </p>
                     </div>
                 </div>
