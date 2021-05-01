@@ -12,7 +12,7 @@ export default function Navbar() {
                 </div>
 
                 <div className={styles.navItem}>
-                    <a href="/DavidMarquardtResume.pdf" target="_blank">Resume</a>
+                    <a href="/DavidMarquardtResume.docx" target="_blank">Resume</a>
                 </div>
 
                 <div className={styles.navItem}>
