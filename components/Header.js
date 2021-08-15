@@ -10,13 +10,10 @@ export default function Header() {
             </div>
             <div className={styles.headerRight}>
                 <p>
-                    I'm a driven and resourceful junior developer based in <strong>Milwaukee, WI</strong>.
+                    I'm a driven and resourceful full-stack developer based in <strong>Milwaukee, WI</strong>.
                 </p>
                 <p>
-                    Frontend development with <strong>Vue</strong>, <strong>React</strong>, and other modern tech are the most interesting to me, but I'm also proficient with <strong>.Net Core</strong> backends.
-                </p>
-                <p>
-                    Currently studying Web and Software Development full-time at <a href="https://www.wctc.edu">Waukesha County Technical College</a>, and on the lookout for my next opportunity.
+                    Frontend development with <strong>React</strong>, <strong>Vue</strong>, and other modern tech are the most interesting to me, and I'm also proficient with <strong>.Net Core</strong> backends.
                 </p>
             </div>
         </header>
